@@ -1,0 +1,27 @@
+// Course.cpp: implementation of the CCourse class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "StudentRy.h"
+#include "Course.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CCourse::CCourse()
+{
+
+}
+
+CCourse::~CCourse()
+{
+
+}

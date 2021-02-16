@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StudentRy - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/StudentRy.res" /d "NDEBUG" /d "_AFXDLL" "E:\StudentRy\StudentRy.rc"" 
+Creating temporary file "e:\temp\RSP107.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/StudentRy.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\StudentRy\Calendar.cpp"
+"E:\StudentRy\calendar1.cpp"
+"E:\StudentRy\ChildFrm.cpp"
+"E:\StudentRy\Course.cpp"
+"E:\StudentRy\CrsStore.cpp"
+"E:\StudentRy\flexgrid.cpp"
+"E:\StudentRy\font.cpp"
+"E:\StudentRy\LoadCrs.cpp"
+"E:\StudentRy\MainFrm.cpp"
+"E:\StudentRy\Message.cpp"
+"E:\StudentRy\NewCrs.cpp"
+"E:\StudentRy\pedit.cpp"
+"E:\StudentRy\Perc.cpp"
+"E:\StudentRy\PercSet.cpp"
+"E:\StudentRy\picture.cpp"
+"E:\StudentRy\rowcursor.cpp"
+"E:\StudentRy\Score.cpp"
+"E:\StudentRy\ScrStore.cpp"
+"E:\StudentRy\StRyDoc.cpp"
+"E:\StudentRy\StRyView.cpp"
+"E:\StudentRy\StSearch.cpp"
+"E:\StudentRy\StStore.cpp"
+"E:\StudentRy\StudentRy.cpp"
+]
+Creating command line "cl.exe @e:\temp\RSP107.tmp" 
+Creating temporary file "e:\temp\RSP108.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/StudentRy.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\StudentRy\StdAfx.cpp"
+]
+Creating command line "cl.exe @e:\temp\RSP108.tmp" 
+Creating temporary file "e:\temp\RSP109.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/StudentRy.pdb" /machine:I386 /out:"Release/StudentRy.exe" 
+.\Release\Calendar.obj
+.\Release\calendar1.obj
+.\Release\ChildFrm.obj
+.\Release\Course.obj
+.\Release\CrsStore.obj
+.\Release\flexgrid.obj
+.\Release\font.obj
+.\Release\LoadCrs.obj
+.\Release\MainFrm.obj
+.\Release\Message.obj
+.\Release\NewCrs.obj
+.\Release\pedit.obj
+.\Release\Perc.obj
+.\Release\PercSet.obj
+.\Release\picture.obj
+.\Release\rowcursor.obj
+.\Release\Score.obj
+.\Release\ScrStore.obj
+.\Release\StdAfx.obj
+.\Release\StRyDoc.obj
+.\Release\StRyView.obj
+.\Release\StSearch.obj
+.\Release\StStore.obj
+.\Release\StudentRy.obj
+.\Release\StudentRy.res
+]
+Creating command line "link.exe @e:\temp\RSP109.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Calendar.cpp
+calendar1.cpp
+ChildFrm.cpp
+Course.cpp
+CrsStore.cpp
+flexgrid.cpp
+font.cpp
+LoadCrs.cpp
+MainFrm.cpp
+Message.cpp
+NewCrs.cpp
+pedit.cpp
+Perc.cpp
+PercSet.cpp
+picture.cpp
+rowcursor.cpp
+Score.cpp
+ScrStore.cpp
+StRyDoc.cpp
+StRyView.cpp
+Generating Code...
+Compiling...
+StSearch.cpp
+StStore.cpp
+StudentRy.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+StudentRy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

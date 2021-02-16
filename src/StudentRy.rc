@@ -1,0 +1,713 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\StudentRy.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#include ""afxdb.rc""          // Database resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\StudentRy.ico"
+IDR_STUDENTYPE          ICON    DISCARDABLE     "res\\StRyDoc.ico"
+IDI_EXCLAM              ICON    DISCARDABLE     "exclamation.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "S&earch"
+    BEGIN
+        MENUITEM "S&tudent",                    ID_SEARCH_STUDENT
+    END
+    POPUP "&Operation"
+    BEGIN
+        MENUITEM "&Delete A Student",           ID_OPERATION_DELETEASTUDENT
+    END
+    POPUP "&Calendar"
+    BEGIN
+        MENUITEM "&Calendar",                   ID_CAL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About StudentRy...",         ID_APP_ABOUT
+    END
+END
+
+IDR_STUDENTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "S&earch"
+    BEGIN
+        MENUITEM "S&tudent",                    ID_SEARCH_STUDENT
+    END
+    POPUP "&Sort"
+    BEGIN
+        MENUITEM "By &First Name",              ID_FNAME
+        MENUITEM "By &Last Name",               ID_LNAME
+        MENUITEM "By &Student Number",          ID_STONUMBER
+        MENUITEM SEPARATOR
+        MENUITEM "By &Homework",                ID_HSCORE
+        MENUITEM "By &Project",                 ID_PSCORE
+        MENUITEM "By &Midterm",                 ID_MSCORE
+        MENUITEM "By &Final Exam",              ID_FSCORE
+        MENUITEM SEPARATOR
+        MENUITEM "By &Final",                   ID_F
+    END
+    POPUP "&Operation"
+    BEGIN
+        MENUITEM "&Delete  Student",            ID_OPERATION_DELETEASTUDENT
+    END
+    POPUP "&Calendar"
+    BEGIN
+        MENUITEM "&Calendar",                   ID_CAL
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About StudentRy...",         ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About StudentRy"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "StudentRy Version 2.0\nSeptember 2001 \nMehdi Ahmadi",
+                    IDC_STATIC,40,14,76,25,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_STUDENTRY_FORM DIALOG DISCARDABLE  0, 0, 651, 410
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_GRID,"{6262D3A0-531B-11CF-91F6-C2863C385E30}",
+                    WS_TABSTOP,0,51,651,352
+    CONTROL         "",IDE_FLOADTEDIT,"{9C7461E3-5DDE-4ECD-B539-672B96EF12CC}",
+                    NOT WS_VISIBLE | WS_GROUP | WS_TABSTOP,60,50,52,16
+END
+
+IDD_NEWCRS DIALOGEX 0, 0, 286, 129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Course"
+FONT 14, "IPT Traffic", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "¨˝¸áï",IDOK,16,13,46,14
+    PUSHBUTTON      "Ù”Ë",IDCANCEL,16,30,46,14
+    LTEXT           "π±≠ Ôá",IDC_STATIC1,237,12,39,11
+    LTEXT           "π±≠ ˚±áÌ∫",IDC_STATIC2,237,29,38,12
+    LTEXT           "˚ı∞‚",IDC_STATIC3,238,47,35,11
+    LTEXT           "Îá∂",IDC_STATIC4,135,19,12,10
+    CONTROL         "",IDE_NEWCOURSE,"{9C7461E3-5DDE-4ECD-B539-672B96EF12CC}",
+                    WS_TABSTOP,170,12,60,13
+    CONTROL         "",IDE_COURSENUM,"{9C7461E3-5DDE-4ECD-B539-672B96EF12CC}",
+                    WS_TABSTOP,170,29,60,13
+    CONTROL         "",IDE_COURSEGRP,"{9C7461E3-5DDE-4ECD-B539-672B96EF12CC}",
+                    WS_TABSTOP,170,46,60,13
+    GROUPBOX        "Ô∞ï",IDC_STATIC5,79,34,53,33,WS_TABSTOP,WS_EX_RIGHT
+    CONTROL         "",IDE_YEAR,"{9C7461E3-5DDE-4ECD-B539-672B96EF12CC}",
+                    WS_TABSTOP,80,18,45,14
+    LTEXT           "á¯¨æ±≠",IDC_STATIC6,237,71,29,9
+    COMBOBOX        IDC_HPERC,194,98,24,48,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PPERC,153,98,24,47,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MPERC,108,98,23,52,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FPERC,65,98,23,47,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ÿ˝Ëáﬂï",IDC_STATIC7,196,80,22,10
+    LTEXT           "˚µı∞ë",IDC_STATIC8,155,80,22,10
+    LTEXT           "Ô∞ï Ûá˝Ï",IDC_STATIC9,109,80,27,10
+    LTEXT           "˛¸á˘",IDC_STATIC10,68,80,17,10
+    COMBOBOX        IDC_TERM,84,46,32,39,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_MESSAGE DIALOGEX 0, 0, 217, 59
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 10, "BSFarsiHtml", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,113,38,47,14
+    LTEXT           "",IDC_MSG,13,10,159,25,0,WS_EX_RIGHT | WS_EX_RTLREADING
+    ICON            IDI_EXCLAM,IDC_STATIC,182,4,20,20
+    PUSHBUTTON      "Ù”Ë",IDCANCEL,53,38,50,14
+END
+
+IDD_WAITMSG DIALOG DISCARDABLE  0, 0, 262, 46
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 11, "IPT Traffic"
+BEGIN
+    LTEXT           "",IDC_WMSG,7,21,245,8
+END
+
+IDD_STSRCH DIALOG DISCARDABLE  0, 0, 186, 64
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Search Student"
+FONT 10, "BSFarsiHtml"
+BEGIN
+    DEFPUSHBUTTON   "¨˝¸áï",IDOK,96,43,50,14
+    PUSHBUTTON      "Ù”Ë",IDCANCEL,38,43,50,14
+    LTEXT           "˛¸ÙùªÜ≠ ˚±áÌ∫",IDC_STATIC,127,20,52,8
+    EDITTEXT        IDC_EDIT,29,17,83,14,ES_AUTOHSCROLL
+END
+
+IDD_LOADCRS DIALOGEX 0, 0, 258, 184
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RTLREADING
+CAPTION "Result"
+FONT 10, "BSFarsiHtml", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "¨˝¸áï",IDOK,201,20,50,14
+    PUSHBUTTON      "Ù”Ë",IDCANCEL,201,44,50,14
+    LISTBOX         IDC_LIST,14,14,178,148,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_RIGHT | WS_EX_RTLREADING
+END
+
+IDD_CALENDARDLG DIALOGEX 0, 0, 266, 192
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "BSFarsiHtml"
+BEGIN
+    LTEXT           "",IDC_SOLAR,70,156,132,23,0,WS_EX_RIGHT
+    CONTROL         "",IDC_CALENDAR,"{8E27C92B-1264-101C-8A2F-040224009C02}",
+                    WS_TABSTOP,68,25,139,107
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "StudentRy MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "StudentRy\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "StudentRy.EXE\0"
+            VALUE "ProductName", "StudentRy Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_STUDENTRY_FORM, DIALOG
+    BEGIN
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 403
+    END
+
+    IDD_NEWCRS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_WAITMSG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_STSRCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 57
+    END
+
+    IDD_LOADCRS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_CALENDARDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_NEWCRS DLGINIT
+BEGIN
+    IDE_NEWCOURSE, 0x376, 46, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x0c67, 0x0000, 0x02b0, 0x0000, 0x0000, 
+0x0000, 0x0101, 0x0001, 0x0000, 0x0001, 0x0069, 0x0000, 0x0004, 0x420b, 
+0x4653, 0x7261, 0x6973, 0x7448, 0x6c6d, 
+    IDE_COURSENUM, 0x376, 46, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x0c67, 0x0000, 0x02b0, 0x0000, 0x0000, 
+0x0000, 0x0101, 0x0001, 0x0000, 0x0001, 0x0064, 0x0000, 0x0004, 0x420b, 
+0x4653, 0x7261, 0x6973, 0x7448, 0x6c6d, 
+    IDE_COURSEGRP, 0x376, 46, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x0c67, 0x0000, 0x02b0, 0x0000, 0x0000, 
+0x0000, 0x0101, 0x0001, 0x0000, 0x0001, 0x0064, 0x0000, 0x0004, 0x420b, 
+0x4653, 0x7261, 0x6973, 0x7448, 0x6c6d, 
+    IDE_YEAR, 0x376, 46, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x094d, 0x0000, 0x02e5, 0x0000, 0x0000, 
+0x0000, 0x0101, 0x0001, 0x0000, 0x0001, 0x0064, 0x0000, 0x0004, 0x420b, 
+0x4653, 0x7261, 0x6973, 0x7448, 0x6c6d, 
+    IDC_TERM, 0x403, 2, 0
+0x0031, 
+    IDC_TERM, 0x403, 2, 0
+0x0032, 
+    0
+END
+
+IDD_STUDENTRY_FORM DLGINIT
+BEGIN
+    IDC_GRID, 0x37a, 306, 0
+0x0024, 0x0000, 0x0037, 0x0032, 0x0045, 0x0036, 0x0037, 0x0031, 0x0032, 
+0x0030, 0x002d, 0x0035, 0x0039, 0x0035, 0x0039, 0x002d, 0x0031, 0x0031, 
+0x0063, 0x0066, 0x002d, 0x0039, 0x0031, 0x0046, 0x0036, 0x002d, 0x0043, 
+0x0032, 0x0038, 0x0036, 0x0033, 0x0043, 0x0033, 0x0038, 0x0035, 0x0045, 
+0x0033, 0x0030, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 0x004c, 
+0x0000, 0x0000, 0x4321, 0x1234, 0x0008, 0x0000, 0x64fa, 0x0000, 0x3b1e, 
+0x0000, 0x6f42, 0x506f, 0x0000, 0x0006, 0x0080, 0x0000, 0x0002, 0x0000, 
+0x0002, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x8000, 0x0008, 0x8000, 0x000f, 0x8000, 0x0012, 0x8000, 0x000d, 0x8000, 
+0x000e, 0x8000, 0x8080, 0x0080, 0xc0c0, 0x00c0, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0002, 0x0000, 0x0001, 0x0002, 
+0x0003, 0x0000, 0x0000, 0x0001, 0x0000, 0x0001, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0002, 0x0000, 0x0000, 0x5203, 0x0be3, 0x8f91, 0x11ce, 
+0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x0201, 0x0000, 0x0190, 0x7cdc, 0x0001, 
+0x420b, 0x4653, 0x7261, 0x6973, 0x7448, 0x6c6d, 0x5204, 0x0be3, 0x8f91, 
+0x11ce, 0xe39d, 0xaa00, 0x4b00, 0x51b8, 0x746c, 0x0000, 0x0000, 0x0000, 
+
+    IDE_FLOADTEDIT, 0x376, 46, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x0810, 0x0000, 0x02b0, 0x0000, 0x0000, 
+0x0000, 0x0101, 0x0001, 0x0000, 0x0001, 0x0064, 0x0000, 0x0004, 0x420b, 
+0x4653, 0x7261, 0x6973, 0x7448, 0x6c6d, 
+    0
+END
+
+IDD_CALENDARDLG DLGINIT
+BEGIN
+    IDC_CALENDAR, 0x37a, 417, 0
+0x0000, 0x0000, 0x0023, 0x0000, 0x0001, 0x0000, 0x001b, 0x0000, 0x0001, 
+0x8001, 0x0000, 0x000c, 0x0000, 0x001a, 0x0000, 0x0002, 0x8001, 0x0001, 
+0x0000, 0x0000, 0x0800, 0xbb00, 0x001c, 0x1e00, 0x0016, 0xd100, 0x0b07, 
+0x0700, 0x0f00, 0x0000, 0x0080, 0x0000, 0x0000, 0xa000, 0x1000, 0x0000, 
+0x0080, 0xa000, 0x0100, 0x0100, 0x0200, 0x0000, 0x0100, 0x0000, 0x0100, 
+0x0000, 0x0100, 0x0000, 0x0100, 0x0000, 0x0100, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0xbc00, 0x4402, 0x0142, 
+0x0500, 0x7241, 0x6169, 0x016c, 0x0000, 0x9000, 0x4401, 0x0142, 0x0500, 
+0x7241, 0x6169, 0x016c, 0x0000, 0xbc00, 0xc002, 0x01d4, 0x0500, 0x7241, 
+0x6169, "\154" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "StudentRy"
+    IDR_STUDENTYPE          "\nStuden\nStuden\n\n\nStudentRy.Document\nStuden Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "StudentRy"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_DUPLICATEMSG        "ˇ±Ü∞ﬂï ˇÙùªÜ≠ ≠Ùúı"
+    IDS_CLOSEMSG            "?¨˝Òﬁ ˛Ï ˚∞˝®Ø Ü± ñÜ∞˝˝”ï á¸Ö"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_STUDENTSRCH          "Find a Student By his/her sudent number"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SEARCH_STUDENT       "Find a student by his/her student number"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\StudentRy.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#include "afxdb.rc"          // Database resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

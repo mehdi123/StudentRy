@@ -1,0 +1,142 @@
+# Microsoft Developer Studio Generated Dependency File, included by StudentRy.mak
+
+.\AvlTree.cpp : \
+	".\AvlTree.h"\
+	".\Score.h"\
+	".\StudentRy.h"\
+	
+
+.\ChildFrm.cpp : \
+	".\ChildFrm.h"\
+	".\StudentRy.h"\
+	
+
+.\Course.cpp : \
+	".\Course.h"\
+	".\StudentRy.h"\
+	
+
+.\CrsStore.cpp : \
+	".\CrsStore.h"\
+	".\StudentRy.h"\
+	
+
+.\flexgrid.cpp : \
+	".\flexgrid.h"\
+	".\font.h"\
+	".\picture.h"\
+	".\rowcursor.h"\
+	
+
+.\font.cpp : \
+	".\font.h"\
+	
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\StudentRy.h"\
+	
+
+.\Message.cpp : \
+	".\Message.h"\
+	".\StudentRy.h"\
+	
+
+.\NewCrs.cpp : \
+	".\CrsStore.h"\
+	".\def.h"\
+	".\Message.h"\
+	".\NewCrs.h"\
+	".\pedit.h"\
+	".\StudentRy.h"\
+	
+
+.\pedit.cpp : \
+	".\pedit.h"\
+	
+
+.\Perc.cpp : \
+	".\Perc.h"\
+	".\StudentRy.h"\
+	
+
+.\PercSet.cpp : \
+	".\PercSet.h"\
+	".\StudentRy.h"\
+	
+
+.\picture.cpp : \
+	".\picture.h"\
+	
+
+.\rowcursor.cpp : \
+	".\rowcursor.h"\
+	
+
+.\Score.cpp : \
+	".\Score.h"\
+	".\StudentRy.h"\
+	
+
+.\ScrStore.cpp : \
+	".\ScrStore.h"\
+	".\StudentRy.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\program files\dxvcsdk\include\basetsd.h"\
+	
+
+.\StRyDoc.cpp : \
+	".\AvlTree.cpp"\
+	".\AvlTree.h"\
+	".\Perc.h"\
+	".\Score.h"\
+	".\StRyDoc.h"\
+	".\StudentRy.h"\
+	
+
+.\StRyView.cpp : \
+	".\AvlTree.h"\
+	".\Course.h"\
+	".\flexgrid.h"\
+	".\NewCrs.h"\
+	".\pedit.h"\
+	".\Perc.h"\
+	".\Score.h"\
+	".\StRyDoc.h"\
+	".\StRyView.h"\
+	".\StudentRy.h"\
+	
+
+.\StStore.cpp : \
+	".\StStore.h"\
+	".\StudentRy.h"\
+	
+
+.\Student.cpp : \
+	".\Student.h"\
+	".\StudentRy.h"\
+	
+
+.\StudentRy.cpp : \
+	".\AvlTree.h"\
+	".\ChildFrm.h"\
+	".\Course.h"\
+	".\flexgrid.h"\
+	".\MainFrm.h"\
+	".\pedit.h"\
+	".\Perc.h"\
+	".\Score.h"\
+	".\StRyDoc.h"\
+	".\StRyView.h"\
+	".\StudentRy.h"\
+	
+
+.\StudentRy.rc : \
+	".\res\StRyDoc.ico"\
+	".\res\StudentRy.ico"\
+	".\res\StudentRy.rc2"\
+	".\res\Toolbar.bmp"\
+	
